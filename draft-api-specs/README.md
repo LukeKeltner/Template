@@ -22,3 +22,16 @@ All API specification MUST use [SemVer 2.0.0](https://semver.org/) version strin
 * Major versions MUST NOT be skipped (e.g. ratifying 3.0.0 requires a prior ratified 2.0.0).
 * IRI will ratify the final version number. Working group target numbers are proposals; IRI MAY require a different version if the semver classification is incorrect (e.g. a breaking change labeled as minor).
 * Multiple working drafts targeting different versions MAY coexist (e.g. a 1.1.0-draft.2 adding features alongside a 2.0.0-draft.1 introducing a breaking redesign).
+
+# Standard Agent
+
+The [Standard Agent](https://github.com/Insured-Retirement-Institute/Standard-Agent) repository provides an AI-assisted review tool to help working groups identify inconsistencies in their YAML files and data dictionaries before submission to the Governance Subcommittee. The goal is to surface most minor and major technical issues prior to human review.
+
+**To run locally:**
+1. Install [Python](https://www.python.org/downloads/) if not already present
+2. Clone the Standard Agent repository
+3. Create a virtual environment and install dependencies (`pip install -r requirements.txt`)
+4. Add your LLM API keys to a local `.env` file (see the Standard Agent README for the required format)
+5. Start the local server
+
+**Quick-start alternative:** Copy the `SYSTEM_PROMPT` from the repository directly into an LLM service of your choice for a lightweight, no-install review.
