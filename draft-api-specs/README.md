@@ -34,4 +34,4 @@ The [Standard Agent](https://github.com/Insured-Retirement-Institute/Standard-Ag
 4. Add your LLM API keys to a local `.env` file (see the Standard Agent README for the required format)
 5. Start the local server
 
-**Quick-start alternative:** Copy the `SYSTEM_PROMPT` from the repository from the repository [agent file](https://github.com/Insured-Retirement-Institute/Standard-Agent/blob/main/agent/agent_prod.py) directly into an LLM service of your choice for a lightweight, no-install review.  This 
+**Quick-start alternative:** Copy the `SYSTEM_PROMPT` from the repository from the repository [agent file](https://github.com/Insured-Retirement-Institute/Standard-Agent/blob/main/agent/agent_prod.py) directly into an LLM service of your choice for a lightweight, no-install review.
