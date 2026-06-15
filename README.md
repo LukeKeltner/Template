@@ -35,3 +35,16 @@ Security issues and bugs should be reported directly to Katherine Dease kdease@i
 ## Code of conduct
 
 See the [Digital-First-Specifications](https://github.com/Insured-Retirement-Institute/Digital-First-Specifications) repository
+
+## Standard Agent
+
+The [Standard Agent](https://github.com/Insured-Retirement-Institute/Standard-Agent) repository provides an AI-assisted review tool to help working groups identify inconsistencies in their YAML files and data dictionaries before submission to the Governance Subcommittee. The goal is to surface most minor and major technical issues prior to human review.
+
+**To run locally:**
+1. Install [Python](https://www.python.org/downloads/) if not already present
+2. Clone the Standard Agent repository
+3. Create a virtual environment and install dependencies (`pip install -r requirements.txt`)
+4. Add your LLM API keys to a local `.env` file (see the Standard Agent README for the required format)
+5. Start the local server
+
+**Quick-start alternative:** Copy the `SYSTEM_PROMPT` from the repository directly into an LLM service of your choice for a lightweight, no-install review.
